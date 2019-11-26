@@ -1,0 +1,18 @@
+<apex:page docType="html-5.0" title="Hello Mobile World">
+    <style>
+        .mypage {
+            font-family: "ProximaNovaSoft-Regular", Calibri; 
+            font-size: 110%;
+            padding-top: 12px;
+        }
+        .mypage h1 {
+            margin-left: 10px;
+            font-weight: normal;
+            font-size: 36px;
+        }
+    </style>
+    
+    <div class="mypage">
+        <h1>Hello mobile world!</h1>
+    </div>       
+</apex:page>

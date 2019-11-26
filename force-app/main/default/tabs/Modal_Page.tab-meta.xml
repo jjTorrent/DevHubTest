@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Testing the modal pop out page functionality.</description>
+    <label>Modal Page</label>
+    <motif>Custom51: Apple</motif>
+    <page>TestModalPage</page>
+</CustomTab>

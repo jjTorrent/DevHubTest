@@ -1,0 +1,14 @@
+<aura:component >
+	<aura:attribute name="Street" type="String" default="2055 S. Hampton"></aura:attribute>
+    <aura:attribute name="City" type="String" default="Springfield"></aura:attribute>
+    <aura:attribute name="State" type="String" default="Missouri"></aura:attribute>
+    <aura:attribute name="PostalCode" type="String" default="65807"></aura:attribute>
+    
+    <div>
+        <p>
+            {!v.Street}<BR/>
+            {!v.City}, {!v.State}<BR/>
+            {!v.PostalCode}
+        </p>
+    </div>
+</aura:component>

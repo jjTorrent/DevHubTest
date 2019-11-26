@@ -1,0 +1,6 @@
+<apex:page docType="html-5.0" title="Create Account" controller="EmailManager">
+    {!$User.FirstName} {!$User.LastName }<BR />
+    {!$User.Email}<BR/>
+    {!$User.Phone}<BR/>
+    {!$User.Title}
+</apex:page>

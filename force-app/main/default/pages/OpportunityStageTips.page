@@ -1,0 +1,10 @@
+<apex:page standardController="Opportunity" title="Stage Tips" >
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:outputText rendered="{!IF(Opportunity.StageName ='Prospecting',true,false)}">Prospecting Tips</apex:outputText>
+            <apex:outputText rendered="{!IF(Opportunity.StageName ='Needs Analysis',true,false)}">Needs Analysis Tips</apex:outputText>
+            <apex:outputText rendered="{!IF(Opportunity.StageName ='Proposal/Price Quote',true,false)}">Proposal/Price Quote Tips</apex:outputText>
+            <apex:outputText rendered="{!IF(Opportunity.StageName ='Negotiation/Review',true,false)}">Negotiation/Review Tips</apex:outputText>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
