@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_SObjects_Must_Have_SF_Field</fullName>
+    <active>true</active>
+    <description>Supplying a Related SObject implies a parent/child relationship. You must supply both the related object and the lookup field on the child record -- the child record to which this mapping is involved.</description>
+    <errorConditionFormula>OR(
+ AND(
+  NOT(ISBLANK( Salesforce_Related_To_Object__c )),
+  ISBLANK( Salesforce_Related_By_Field__c )
+ ),
+ AND(
+  ISBLANK( Salesforce_Related_To_Object__c ),
+  NOT(ISBLANK( Salesforce_Related_By_Field__c ))
+ )
+)</errorConditionFormula>
+    <errorMessage>You must supply both the Salesforce Related To Object and the Salesforce Related To Field lookup field on the child record.</errorMessage>
+</ValidationRule>

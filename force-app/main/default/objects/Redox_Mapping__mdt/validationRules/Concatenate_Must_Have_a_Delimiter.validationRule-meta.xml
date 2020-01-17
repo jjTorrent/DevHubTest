@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concatenate_Must_Have_a_Delimiter</fullName>
+    <active>true</active>
+    <description>Concatenate behavior must have a delimiter.</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL(Salesforce_Concatenation_Delimiter__c, &#39;&#39;),
+ OR(
+  ISPICKVAL(Redox_Field_Behavior__c, &#39;Concatenate Strings&#39;),
+  ISPICKVAL(Redox_Field_Behavior__c, &#39;Concatenate Objects&#39;)
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Salesforce_Concatenation_Delimiter__c</errorDisplayField>
+    <errorMessage>Concatenate behavior must have a delimiter.</errorMessage>
+</ValidationRule>

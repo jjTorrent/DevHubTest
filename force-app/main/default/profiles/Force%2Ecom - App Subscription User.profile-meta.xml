@@ -312,10 +312,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <customMetadataTypeAccesses>
-        <enabled>false</enabled>
-        <name>Data_Model_and_Event_Type__mdt</name>
-    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -1518,6 +1514,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Redox_Mapping__mdt.Path__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Redox_Mapping__mdt.Redox_Concatenation_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Redox_Mapping__mdt.Salesforce_Concatenation_Delimiter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Redox_Mapping__mdt.Salesforce_Default_Value__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Redox_Mapping__mdt.Salesforce_Related_By_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Redox_Mapping__mdt.Salesforce_Related_To_Object__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Suggestion__c.Implemented_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1638,6 +1664,10 @@
     </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Location</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account BrandLayout</layout>
@@ -1824,6 +1854,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Redox_Data_Model_and_Event_Type__mdt-Redox Data Model and Event Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Redox_Mapping__mdt-Redox Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Redox_Upsert_Field__mdt-Redox Upsert Field Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Review__c-Review Layout</layout>
@@ -2158,6 +2197,11 @@
         <apexPage>jQueryMobileResources</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Location</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Candidate__c</tab>
         <visibility>DefaultOn</visibility>

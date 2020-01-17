@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Default_Value__c</fullName>
+    <description>When the Redox Path is set to DEFAULT_VALUE, this field will be pushed into the defined Salesforce Field.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>When the Redox Path is set to DEFAULT_VALUE, this field will be pushed into the defined Salesforce Field.</inlineHelpText>
+    <label>Salesforce Default Value</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

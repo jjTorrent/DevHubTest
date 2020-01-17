@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_External_ID_Field__c</fullName>
+    <description>This field must have metadata identifiers for External ID and Uniqueness.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This field must have metadata identifiers for External ID and Uniqueness.</inlineHelpText>
+    <label>Salesforce External ID Field</label>
+    <metadataRelationshipControllingField>Redox_Upsert_Field__mdt.Salesforce_SObject__c</metadataRelationshipControllingField>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipLabel>Redox_Upsert_Fields</relationshipLabel>
+    <relationshipName>Redox_Upsert_Fields</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

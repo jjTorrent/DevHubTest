@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Redox_Path__c</fullName>
+    <description>The path to the field node from the object key in the JSON Redox data model, stored as comma separated list (i.e. &quot;Guarantor,Employer,Address&quot; for Guarantor Employer Address). Use DEFAULT_VALUE to predefine a Salesforce field&#39;s default value.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The path to the field node from the object key in the JSON Redox data model, stored as comma separated list (i.e. &quot;Guarantor,Employer,Address&quot; for Guarantor Employer Address). Use DEFAULT_VALUE to predefine a Salesforce field&#39;s default value.</inlineHelpText>
+    <label>Redox Path</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

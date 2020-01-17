@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_SObject__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Salesforce SObject</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Redox_Upsert_Fields</relationshipLabel>
+    <relationshipName>Redox_Upsert_Fields</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>true</unique>
+</CustomField>

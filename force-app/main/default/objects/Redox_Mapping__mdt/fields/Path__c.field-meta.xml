@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+	<fullName>Path__c</fullName>
+	<description>The path to the field node, from the object key, in the JSON Redox data model, comma separated (i.e. &quot;Empoyer,Address&quot; for Guarantor Employer Address). If this value is an integer, it is assumed that the value is a list and it will take the &apos;n&apos;th element. If the value says &quot;concat&quot;, it will concatenate all entries in the list.</description>
+	<externalId>false</externalId>
+	<fieldManageability>SubscriberControlled</fieldManageability>
+	<inlineHelpText>The path to the field node, from the object key, in the JSON Redox data model, comma separated (i.e. &quot;Empoyer,Address&quot; for Guarantor Employer Address). If this value is an integer, it is assumed that the value is a list and it will take the &apos;n&apos;th element.</inlineHelpText>
+	<label>Path</label>
+	<length>255</length>
+	<required>false</required>
+	<type>Text</type>
+	<unique>false</unique>
+</CustomField>

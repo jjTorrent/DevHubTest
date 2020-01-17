@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concatenate_Must_Be_String_Data_Type</fullName>
+    <active>true</active>
+    <description>All concatenation methods must resolve to a String data type.</description>
+    <errorConditionFormula>AND(
+ OR(
+  ISPICKVAL(Redox_Field_Behavior__c, &#39;Concatenate Strings&#39;),
+  ISPICKVAL(Redox_Field_Behavior__c, &#39;Concatenate Objects&#39;)
+ ),
+ NOT(ISPICKVAL(Data_Type__c, &#39;String&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Data_Type__c</errorDisplayField>
+    <errorMessage>All concatenation methods must resolve to a String data type.</errorMessage>
+</ValidationRule>

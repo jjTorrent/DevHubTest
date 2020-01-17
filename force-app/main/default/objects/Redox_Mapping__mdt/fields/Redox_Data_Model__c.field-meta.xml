@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Redox_Data_Model__c</fullName>
+    <description>The Redox data model type.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Which Redox data model is this mapping for?</inlineHelpText>
+    <label>Redox Data Model</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PatientAdmin</fullName>
+                <default>true</default>
+                <label>PatientAdmin</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Scheduling</fullName>
+                <default>false</default>
+                <label>Scheduling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
