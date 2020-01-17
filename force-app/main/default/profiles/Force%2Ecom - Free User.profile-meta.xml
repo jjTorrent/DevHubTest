@@ -100,6 +100,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AsyncParkService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CampingListController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -229,6 +233,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityAlertController_test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ParkLocator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ParkService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
